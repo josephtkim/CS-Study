@@ -5,25 +5,25 @@ Automatic resizing array.
 public class DynamicArray<T> {
 
     private Object[] items;
-    private int size;
+    private int capacity;
     private int index;
 
     public DynamicArray(int size) {
         if (size <= 0) {
-            System.out.println("Not a valid size. Initializing with size 1.");
-            this.size = 1;
+            System.out.println("Not a valid capacity. Initializing with capacity 1.");
+            this.capacity = 1;
         } else {
-            this.size = size;
+            this.capacity = size;
         }
 
-        this.items = new Object[this.size];
+        this.items = new Object[this.capacity];
         this.index = -1;
     }
 
     public void add(T item) {
         if (isFull()) {
-            // Double size of array and copy over old items
-            resize(this.size * 2);
+            // Double capacity of array and copy over old items
+            resize(this.capacity * 2);
             add(item);
         } else {
             this.items[++index] = item;
@@ -31,7 +31,7 @@ public class DynamicArray<T> {
     }
 
     public T itemAt(int index) {
-        if (index < 0 || index >= this.size) {
+        if (index < 0 || index >= this.capacity) {
             System.out.println("Out of bounds");
             return null;
         } else {
@@ -39,25 +39,25 @@ public class DynamicArray<T> {
         }
     }
 
-    public int getSize() {
+    public int getCapacity() {
         return this.index + 1;
     }
 
     public int capacity() {
-        return this.size;
+        return this.capacity;
     }
 
     public boolean isFull() {
-        return (this.index + 1) >= this.size;
+        return (this.index + 1) >= this.capacity;
     }
 
     private void resize(int newSize) {
         // Copy old array
         Object[] oldArray = this.items.clone();
 
-        // Double size of array
-        this.size = this.size * 2;
-        this.items = new Object[this.size];
+        // Double capacity of array
+        this.capacity = this.capacity * 2;
+        this.items = new Object[this.capacity];
 
         // Copy every item to new array
         for (int i = 0; i < oldArray.length; i++) {
@@ -83,7 +83,7 @@ public class DynamicArray<T> {
         array.printArray();
         System.out.println(array.isFull());
         System.out.println(array.itemAt(2));
-        System.out.println(array.getSize());
+        System.out.println(array.getCapacity());
         System.out.println(array.capacity());
 
         array.add("D");
@@ -91,7 +91,7 @@ public class DynamicArray<T> {
         array.printArray();
         System.out.println(array.isFull());
         System.out.println(array.itemAt(3));
-        System.out.println(array.getSize());
+        System.out.println(array.getCapacity());
         System.out.println(array.capacity());
     }
 }
