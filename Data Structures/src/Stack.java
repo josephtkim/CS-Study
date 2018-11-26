@@ -10,7 +10,6 @@ public class Stack<T> {
         this.topIndex = -1;
     }
 
-
     public void push(T item) {
         if (!isFull()) {
             this.items[++this.topIndex] = item;
@@ -18,7 +17,6 @@ public class Stack<T> {
             System.out.println("Stack is full");
         }
     }
-
 
     public T pop() {
         if (!isEmpty()) {
@@ -45,13 +43,9 @@ public class Stack<T> {
         return this.topIndex + 1 == this.size;
     }
 
-
     public boolean isEmpty() {
         return this.topIndex == -1;
     }
-
-
-
 
     public static void main(String[] args) {
         Stack stack = new Stack(5);
@@ -72,6 +66,5 @@ public class Stack<T> {
         while (!stack.isEmpty()) {
             System.out.println(stack.pop());
         }
-
     }
 }
