@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c24e48d-aa5f-4852-a60a-a5abea4f42bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/QueueCircularArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DoublyLinkedListWithTail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SinglyLinkedListWithTail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data Structures/CircularQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data Structures/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data Structures/QueueArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CircularQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QueueArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QueueLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueueLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data Structures/Tree.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StackLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,22 +31,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="21" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6009" />
+          <entry key="java" value="11412" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6009" />
+          <entry key="JAVA" value="11412" />
         </counts>
       </usages-collector>
     </session>
@@ -62,10 +54,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DynamicArray.java">
+        <entry file="file://$PROJECT_DIR$/src/SinglyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="82" column="27" lean-forward="true" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+            <state relative-caret-position="750">
+              <caret line="347" column="28" selection-start-line="347" selection-start-column="28" selection-end-line="347" selection-end-column="28" />
+              <folding>
+                <element signature="class#LLNode#0;class#SinglyLinkedList#0" />
+                <element signature="method#addFront#0;class#SinglyLinkedList#0" />
+                <element signature="method#popFront#0;class#SinglyLinkedList#0" />
+                <element signature="method#front#0;class#SinglyLinkedList#0" />
+                <element signature="method#addBack#0;class#SinglyLinkedList#0" />
+                <element signature="method#popBack#0;class#SinglyLinkedList#0" />
+                <element signature="method#back#0;class#SinglyLinkedList#0" />
+                <element signature="method#insertAt#0;class#SinglyLinkedList#0" />
+                <element signature="method#insertAfter#0;class#SinglyLinkedList#0" />
+                <element signature="method#insertBefore#0;class#SinglyLinkedList#0" />
+                <element signature="method#remove#0;class#SinglyLinkedList#0" />
+                <element signature="method#getSize#0;class#SinglyLinkedList#0" />
+                <element signature="method#isEmpty#0;class#SinglyLinkedList#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SinglyLinkedListWithTail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DoublyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="29" selection-start-column="29" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DoublyLinkedListWithTail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -87,20 +121,22 @@
       <list>
         <option value="$PROJECT_DIR$/src/Stack.java" />
         <option value="$PROJECT_DIR$/src/StackLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/QueueLinkedList.java" />
         <option value="$PROJECT_DIR$/src/QueueArray.java" />
         <option value="$PROJECT_DIR$/src/Queue.java" />
         <option value="$PROJECT_DIR$/src/QueueCircularArray.java" />
         <option value="$PROJECT_DIR$/src/Array.java" />
         <option value="$PROJECT_DIR$/src/DynamicArray.java" />
+        <option value="$PROJECT_DIR$/src/DoublyLinkedListWithTail.java" />
+        <option value="$PROJECT_DIR$/src/SinglyLinkedListWithTail.java" />
+        <option value="$PROJECT_DIR$/src/SinglyLinkedList.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="265" />
-    <option name="width" value="1483" />
-    <option name="height" value="1100" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="222" />
+    <option name="width" value="1631" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -131,7 +167,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543260727358" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543273792241" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -149,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DynamicArray">
+  <component name="RunManager" selected="Application.SinglyLinkedList">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array" />
       <module name="Data Structures" />
@@ -159,6 +195,13 @@
     </configuration>
     <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynamicArray" />
+      <module name="Data Structures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SinglyLinkedList" />
       <module name="Data Structures" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,9 +226,11 @@
       <item itemvalue="Application.StackLinkedList" />
       <item itemvalue="Application.Array" />
       <item itemvalue="Application.DynamicArray" />
+      <item itemvalue="Application.SinglyLinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SinglyLinkedList" />
         <item itemvalue="Application.DynamicArray" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.StackLinkedList" />
@@ -207,9 +252,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="222" y="0" width="1631" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.13685551" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32914045" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32917964" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3997923" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info active="true" anchor="right" x="3221" y="-2" width="612" height="962" id="Run" order="8" visible="true" weight="0.37046468" />
+    </layout>
+    <layout-to-restore>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
@@ -235,20 +308,13 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" x="3221" y="-2" width="612" height="962" id="Run" order="8" visible="true" weight="0.4392324" />
-    </layout>
+      <window_info anchor="right" x="3221" y="-2" width="612" height="962" id="Run" order="8" weight="0.4392324" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DoublyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MinHeap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -312,13 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SinglyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/QueueCircularArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -335,8 +394,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DynamicArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="1360">
           <caret line="82" column="27" lean-forward="true" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SinglyLinkedListWithTail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DoublyLinkedListWithTail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SinglyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="347" column="28" selection-start-line="347" selection-start-column="28" selection-end-line="347" selection-end-column="28" />
+          <folding>
+            <element signature="class#LLNode#0;class#SinglyLinkedList#0" />
+            <element signature="method#addFront#0;class#SinglyLinkedList#0" />
+            <element signature="method#popFront#0;class#SinglyLinkedList#0" />
+            <element signature="method#front#0;class#SinglyLinkedList#0" />
+            <element signature="method#addBack#0;class#SinglyLinkedList#0" />
+            <element signature="method#popBack#0;class#SinglyLinkedList#0" />
+            <element signature="method#back#0;class#SinglyLinkedList#0" />
+            <element signature="method#insertAt#0;class#SinglyLinkedList#0" />
+            <element signature="method#insertAfter#0;class#SinglyLinkedList#0" />
+            <element signature="method#insertBefore#0;class#SinglyLinkedList#0" />
+            <element signature="method#remove#0;class#SinglyLinkedList#0" />
+            <element signature="method#getSize#0;class#SinglyLinkedList#0" />
+            <element signature="method#isEmpty#0;class#SinglyLinkedList#0" />
+          </folding>
         </state>
       </provider>
     </entry>
