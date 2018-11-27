@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c24e48d-aa5f-4852-a60a-a5abea4f42bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data Structures/DoublyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data Structures/DoublyLinkedListWithTail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedListWithTail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SinglyLinkedListWithTail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SinglyLinkedListWithTail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QueueCircularArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueueCircularArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QueueLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueueLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,34 +21,56 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="28" />
+          <entry key="java" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="17408" />
+          <entry key="java" value="20215" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17408" />
+          <entry key="JAVA" value="20215" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/QueueCircularArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#97#0" expanded="true" />
+                <element signature="method#QueueCircularArray#0;class#QueueCircularArray#0" />
+                <element signature="method#enqueue#0;class#QueueCircularArray#0" />
+                <element signature="method#dequeue#0;class#QueueCircularArray#0" />
+                <element signature="method#front#0;class#QueueCircularArray#0" />
+                <element signature="method#isEmpty#0;class#QueueCircularArray#0" />
+                <element signature="method#isFull#0;class#QueueCircularArray#0" />
+                <element signature="method#printItems#0;class#QueueCircularArray#0" />
+                <element signature="method#main#0;class#QueueCircularArray#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,22 +87,22 @@
       <list>
         <option value="$PROJECT_DIR$/src/Stack.java" />
         <option value="$PROJECT_DIR$/src/StackLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/QueueLinkedList.java" />
         <option value="$PROJECT_DIR$/src/QueueArray.java" />
         <option value="$PROJECT_DIR$/src/Queue.java" />
-        <option value="$PROJECT_DIR$/src/QueueCircularArray.java" />
         <option value="$PROJECT_DIR$/src/Array.java" />
         <option value="$PROJECT_DIR$/src/DynamicArray.java" />
         <option value="$PROJECT_DIR$/src/DoublyLinkedListWithTail.java" />
         <option value="$PROJECT_DIR$/src/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/SinglyLinkedListWithTail.java" />
+        <option value="$PROJECT_DIR$/src/QueueLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/QueueCircularArray.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2" />
+    <option name="x" value="160" />
     <option name="y" value="1" />
-    <option name="width" value="1374" />
+    <option name="width" value="1560" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -96,6 +113,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,15 +131,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543278722175" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543343419132" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -135,16 +153,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SinglyLinkedListWithTail">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array" />
+  <component name="RunManager" selected="Application.QueueCircularArray">
+    <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicArray" />
       <module name="Data Structures" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicArray" />
+    <configuration name="QueueCircularArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QueueCircularArray" />
+      <module name="Data Structures" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QueueLinkedList" />
       <module name="Data Structures" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -164,27 +189,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackLinkedList" />
-      <module name="Data Structures" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.StackLinkedList" />
-      <item itemvalue="Application.Array" />
       <item itemvalue="Application.DynamicArray" />
       <item itemvalue="Application.SinglyLinkedList" />
       <item itemvalue="Application.SinglyLinkedListWithTail" />
+      <item itemvalue="Application.QueueLinkedList" />
+      <item itemvalue="Application.QueueCircularArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueCircularArray" />
+        <item itemvalue="Application.QueueLinkedList" />
         <item itemvalue="Application.SinglyLinkedListWithTail" />
         <item itemvalue="Application.SinglyLinkedList" />
         <item itemvalue="Application.DynamicArray" />
-        <item itemvalue="Application.Array" />
-        <item itemvalue="Application.StackLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -203,13 +221,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.114605546" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.11567164" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -229,7 +248,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" x="3221" y="-2" width="612" height="962" id="Run" order="8" weight="0.358742" />
+      <window_info active="true" anchor="right" x="3221" y="-2" width="612" height="962" id="Run" order="8" visible="true" weight="0.38859275" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -278,13 +297,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree.java" />
     <entry file="file://$PROJECT_DIR$/src/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -299,41 +312,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/QueueArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CircularQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/QueueLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/QueueCircularArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QueueArray.java" />
+    <entry file="file://$PROJECT_DIR$/src/CircularQueue.java" />
+    <entry file="file://$PROJECT_DIR$/src/Queue.java" />
     <entry file="file://$PROJECT_DIR$/src/Array.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -348,20 +329,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DoublyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DoublyLinkedListWithTail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DoublyLinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/src/DoublyLinkedListWithTail.java" />
     <entry file="file://$PROJECT_DIR$/src/SinglyLinkedListWithTail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
@@ -406,6 +375,38 @@
             <element signature="method#isEmpty#0;class#SinglyLinkedList#0" />
             <element signature="method#traverse#0;class#SinglyLinkedList#0" />
             <element signature="method#main#0;class#SinglyLinkedList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="244" column="13" selection-start-line="244" selection-start-column="13" selection-end-line="244" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QueueLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QueueCircularArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#97#0" expanded="true" />
+            <element signature="method#QueueCircularArray#0;class#QueueCircularArray#0" />
+            <element signature="method#enqueue#0;class#QueueCircularArray#0" />
+            <element signature="method#dequeue#0;class#QueueCircularArray#0" />
+            <element signature="method#front#0;class#QueueCircularArray#0" />
+            <element signature="method#isEmpty#0;class#QueueCircularArray#0" />
+            <element signature="method#isFull#0;class#QueueCircularArray#0" />
+            <element signature="method#printItems#0;class#QueueCircularArray#0" />
+            <element signature="method#main#0;class#QueueCircularArray#0" />
           </folding>
         </state>
       </provider>
