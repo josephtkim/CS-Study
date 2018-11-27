@@ -261,7 +261,6 @@ public class SinglyLinkedList {
         System.out.println("");
     }
 
-
     public static void main(String[] args) {
         SinglyLinkedList linkedList = new SinglyLinkedList();
 
