@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 /*
 Graph implemented with adjacency matrix.
 Weighted edges. Unweighted edges is simply removing the edge parameter, and
@@ -74,18 +76,103 @@ public class GraphAdjMatrix {
         }
     }
 
+    public void BFS(int source) {
+        boolean[] visited = new boolean[V];
+
+        LinkedList<Integer> q = new LinkedList<>();
+        q.addLast(source);
+        visited[source] = true;
+
+        while (!q.isEmpty()) {
+            int vertex = q.removeFirst();
+            System.out.print(vertex +  " ");
+
+            for (int i = 0; i < V; i++) {
+                // Checks that it's a neighbor
+                if (adjMatrix[vertex][i] != -1) {
+                    if (!visited[i]) {
+                        visited[i] = true;
+                        q.addLast(i);
+                    }
+                }
+            }
+        }
+    }
+
+    public void DFS(int source) {
+        boolean[] visited = new boolean[V];
+
+        LinkedList<Integer> stack = new LinkedList<>();
+        stack.addFirst(source);
+        visited[source] = true;
+
+        while (!stack.isEmpty()) {
+            int vertex = stack.removeFirst();
+            System.out.print(vertex + " ");
+
+            for (int i = 0; i < V; i++) {
+                if (adjMatrix[vertex][i] != -1) {
+                    if (!visited[i]) {
+                        visited[i] = true;
+                        stack.addFirst(i);
+                    }
+                }
+            }
+        }
+    }
+
+    public void recDFS(int source) {
+        boolean[] visited = new boolean[V];
+
+        recDFSUtil(source, visited);
+    }
+
+    public void recDFSUtil(int v, boolean[] visited) {
+        visited[v] = true;
+        System.out.print(v + " ");
+
+        for (int i = 0; i < V; i++) {
+            if (adjMatrix[v][i] != -1) {
+                if (!visited[i]) {
+                    recDFSUtil(i, visited);
+                }
+            }
+        }
+    }
+
     public static void main(String[] args) {
-        GraphAdjMatrix graph = new GraphAdjMatrix(5);
+        GraphAdjMatrix graph = new GraphAdjMatrix(6);
         graph.printGraph();
 
-        graph.addEdge(1, 2, 5);
-        graph.addEdge(0, 3, 10);
-        graph.addEdge(4, 4, 15);
+        graph.addEdge(0, 1, 10);
+        graph.addEdge(1, 3, 5);
+        graph.addEdge(0, 2, 15);
+        graph.addEdge(2, 4, 20);
+        graph.addEdge(1, 2, 7);
+        graph.addEdge(3, 4, 13);
+        graph.addEdge(3, 5, 14);
 
         System.out.println(graph.containsEdge(1, 2));
         System.out.println(graph.containsEdge(1, 3));
 
         System.out.println(graph.isValidEdge(1, 2));
         graph.printGraph();
+
+        System.out.println("Breadth First Search.");
+        graph.BFS(0);
+        System.out.println("");
+        graph.BFS(2);
+        System.out.println("");
+
+        System.out.println("Depth First Search.");
+        graph.DFS(0);
+        System.out.println("");
+        graph.DFS(4);
+
+        System.out.println("");
+        graph.recDFS(4);
+        System.out.println("");
+        graph.recDFS(0);
+        System.out.println("");
     }
 }

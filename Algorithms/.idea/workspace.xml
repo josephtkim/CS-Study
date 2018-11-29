@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d9ebb227-b44e-426f-815c-bdd4777331f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data Structures/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures/src/GraphAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Data Structures/src/GraphAdjList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures/src/GraphAdjMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Data Structures/src/GraphAdjMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data Structures/src/GraphDirected.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,17 +54,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +79,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="380" />
+    <option name="x" value="295" />
     <option name="width" value="1540" />
     <option name="height" value="1100" />
   </component>
@@ -119,8 +112,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543520604641" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Data Structures" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543524039819" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -178,7 +171,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="380" y="0" width="1540" height="1100" extended-state="0" />
+    <frame x="363" y="0" width="1540" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -206,7 +199,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info active="true" anchor="right" x="3221" y="-2" width="612" height="962" id="Run" order="8" visible="true" weight="0.35945946" />
+      <window_info anchor="right" x="3221" y="-2" width="612" height="962" id="Run" order="8" weight="0.35945946" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">

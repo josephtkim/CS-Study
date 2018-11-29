@@ -62,6 +62,65 @@ public class GraphAdjList {
         }
     }
 
+    public void BFS(int source) {
+        boolean[] visited = new boolean[V];
+
+        LinkedList<Integer> queue = new LinkedList<>();
+
+        visited[source] = true;
+        queue.addLast(source);
+
+        while (!queue.isEmpty()) {
+            int vertex = queue.removeFirst();
+            System.out.print(vertex +  " ");
+
+            for (int n : adjList[vertex]) {
+                if (!visited[n]) {
+                    visited[n] = true;
+                    queue.addLast(n);
+                }
+            }
+        }
+    }
+
+    public void DFS(int source) {
+        boolean[] visited = new boolean[V];
+
+        LinkedList<Integer> stack = new LinkedList<>();
+
+        visited[source] = true;
+        stack.addFirst(source);
+
+        while (!stack.isEmpty()) {
+            int vertex = stack.removeFirst();
+            System.out.print(vertex + " ");
+
+            for (int n : adjList[vertex]) {
+                if (!visited[n]) {
+                    visited[n] = true;
+                    stack.addFirst(n);
+                }
+            }
+        }
+    }
+
+    public void recDFS(int source) {
+        boolean[] visited = new boolean[V];
+
+        recDFSUtil(source, visited);
+    }
+
+    public void recDFSUtil(int v, boolean[] visited) {
+        visited[v] = true;
+        System.out.print(v + " ");
+
+        for (int n : adjList[v]) {
+            if (!visited[n]) {
+                recDFSUtil(n, visited);
+            }
+        }
+    }
+
     public static void main(String[] args) {
         GraphAdjList graph = new GraphAdjList(5);
 
@@ -70,7 +129,10 @@ public class GraphAdjList {
         graph.addEdge(1, 3);
         graph.addEdge(2, 4);
         graph.addEdge(0, 2);
+        graph.addEdge(0, 1);
         graph.addEdge(4, 5);
+        graph.addEdge(1, 2);
+        graph.addEdge(3, 4);
 
         graph.printAdjList();
 
@@ -78,5 +140,19 @@ public class GraphAdjList {
         System.out.println(graph.containsEdge(1, 3));
 
         System.out.println(graph.containsEdge(4, 5));
+
+        System.out.println("Breadth First Search.");
+        graph.BFS(2);
+
+        System.out.println("Depth First Search.");
+        graph.DFS(0);
+        System.out.println("");
+
+        graph.DFS(2);
+
+        System.out.println("");
+        graph.recDFS(2);
+        System.out.println("");
+        graph.recDFS(0);
     }
 }

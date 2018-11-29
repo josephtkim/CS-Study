@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c24e48d-aa5f-4852-a60a-a5abea4f42bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Algorithms/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithms/src/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithms/src/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithms/src/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithms/src/DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Algorithms/src/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Algorithms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithms/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphAdjList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphAdjList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphAdjMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphAdjMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphDirected.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,70 +22,42 @@
     <session id="653551940">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="44" />
+          <entry key="java" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="44" />
+          <entry key="JAVA" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="38419" />
+          <entry key="java" value="41319" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="38419" />
+          <entry key="JAVA" value="41319" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PriorityQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-              <folding>
-                <element signature="class#Vertex#0;class#Graph#0" />
-                <element signature="class#Edge#0;class#Graph#0" />
-                <element signature="method#addEdge#0;class#Graph#0" />
-                <element signature="method#addVertex#0;class#Graph#0" />
-                <element signature="method#containsVertex#0;class#Graph#0" />
-                <element signature="method#numVertices#0;class#Graph#0" />
-                <element signature="method#numEdges#0;class#Graph#0" />
-                <element signature="method#printGraph#0;class#Graph#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,17 +85,17 @@
         <option value="$PROJECT_DIR$/src/QueueCircularArray.java" />
         <option value="$PROJECT_DIR$/src/GraphWeighted.java" />
         <option value="$PROJECT_DIR$/src/GraphDirected.java" />
-        <option value="$PROJECT_DIR$/src/GraphAdjMatrix.java" />
-        <option value="$PROJECT_DIR$/src/GraphAdjList.java" />
-        <option value="$PROJECT_DIR$/src/Graph.java" />
         <option value="$PROJECT_DIR$/src/MinHeap.java" />
         <option value="$PROJECT_DIR$/src/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/Graph.java" />
+        <option value="$PROJECT_DIR$/src/GraphAdjList.java" />
+        <option value="$PROJECT_DIR$/src/GraphAdjMatrix.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="154" />
-    <option name="width" value="1451" />
+    <option name="x" value="404" />
+    <option name="width" value="1452" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -157,7 +127,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543513834928" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543523983560" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -177,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Graph">
+  <component name="RunManager" selected="Application.GraphAdjMatrix">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearchTree" />
       <module name="Data Structures" />
@@ -222,11 +192,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphAdjMatrix" />
+        <item itemvalue="Application.GraphAdjList" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.MinHeap" />
         <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.GraphAdjList" />
-        <item itemvalue="Application.GraphAdjMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -244,23 +214,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="154" y="0" width="1451" height="1087" extended-state="0" />
-    <editor active="true" />
+    <frame x="404" y="0" width="1452" height="1087" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16534866" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16738506" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3281412" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32809225" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32917964" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.3997923" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -272,7 +241,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" x="3221" y="-2" width="612" height="962" id="Run" order="8" weight="0.35658914" />
+      <window_info anchor="right" x="3221" y="-2" width="612" height="962" id="Run" order="8" weight="0.35632184" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -422,34 +391,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AdjMatrix.java" />
-    <entry file="file://$PROJECT_DIR$/src/GraphAdjMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GraphAdjList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
-          <folding>
-            <element signature="method#GraphAdjList#0;class#GraphAdjList#0" />
-            <element signature="method#addEdge#0;class#GraphAdjList#0" />
-            <element signature="method#containsEdge#0;class#GraphAdjList#0" />
-            <element signature="method#printAdjList#0;class#GraphAdjList#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GraphWeighted.java" />
-    <entry file="file://$PROJECT_DIR$/src/GraphDirected.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
@@ -507,10 +449,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphDirected.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        <state relative-caret-position="750">
+          <caret line="120" column="27" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
           <folding>
             <element signature="class#Vertex#0;class#Graph#0" />
             <element signature="class#Edge#0;class#Graph#0" />
@@ -520,6 +469,36 @@
             <element signature="method#numVertices#0;class#Graph#0" />
             <element signature="method#numEdges#0;class#Graph#0" />
             <element signature="method#printGraph#0;class#Graph#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphAdjMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+          <folding>
+            <element signature="method#GraphAdjMatrix#0;class#GraphAdjMatrix#0" />
+            <element signature="method#addEdge#0;class#GraphAdjMatrix#0" />
+            <element signature="method#setEdge#0;class#GraphAdjMatrix#0" />
+            <element signature="method#containsEdge#0;class#GraphAdjMatrix#0" />
+            <element signature="method#isValidEdge#0;class#GraphAdjMatrix#0" />
+            <element signature="method#printGraph#0;class#GraphAdjMatrix#0" />
+            <element signature="method#BFS#0;class#GraphAdjMatrix#0" />
+            <element signature="method#DFS#0;class#GraphAdjMatrix#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GraphAdjList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="106" column="4" lean-forward="true" selection-start-line="106" selection-start-column="4" selection-end-line="121" selection-end-column="5" />
+          <folding>
+            <element signature="method#GraphAdjList#0;class#GraphAdjList#0" />
+            <element signature="method#addEdge#0;class#GraphAdjList#0" />
+            <element signature="method#containsEdge#0;class#GraphAdjList#0" />
+            <element signature="method#printAdjList#0;class#GraphAdjList#0" />
           </folding>
         </state>
       </provider>
