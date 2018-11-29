@@ -232,6 +232,11 @@ public class MinHeap {
 
 
         heap.buildHeap(new int[]{19, 1, 18, 2, 23, 37, 34, 26, 5});
+        System.out.println(heap.extractMin());
+        heap.insert(100);
+        System.out.println(heap.extractMin());
+        heap.insert(3);
+
         heap.printHeap();
 
         System.out.println(heap.extractMin());
