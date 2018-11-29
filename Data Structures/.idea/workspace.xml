@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c24e48d-aa5f-4852-a60a-a5abea4f42bb" name="Default Changelist" comment="" />
+    <list default="true" id="4c24e48d-aa5f-4852-a60a-a5abea4f42bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Algorithms/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/src/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/src/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/src/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/src/DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algorithms/src/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,21 +24,23 @@
     <session id="653551940">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="41" />
+          <entry key="java" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -49,27 +59,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="241" column="42" lean-forward="true" selection-start-line="241" selection-start-column="42" selection-end-line="241" selection-end-column="42" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
               <folding>
-                <element signature="class#BSTNode#0;class#BinarySearchTree#0" />
-                <element signature="method#BinarySearchTree#0;class#BinarySearchTree#0" />
-                <element signature="method#insert#0;class#BinarySearchTree#0" />
-                <element signature="method#insertREc#0;class#BinarySearchTree#0" />
-                <element signature="method#remove#0;class#BinarySearchTree#0" />
-                <element signature="method#removeRec#0;class#BinarySearchTree#0" />
-                <element signature="method#contains#0;class#BinarySearchTree#0" />
-                <element signature="method#getHeight#0;class#BinarySearchTree#0" />
-                <element signature="method#getSuccessor#0;class#BinarySearchTree#0" />
-                <element signature="method#getMin#0;class#BinarySearchTree#0" />
-                <element signature="method#getMax#0;class#BinarySearchTree#0" />
-                <element signature="method#getSize#0;class#BinarySearchTree#0" />
-                <element signature="method#inOrder#0;class#BinarySearchTree#0" />
-                <element signature="method#preOrder#0;class#BinarySearchTree#0" />
-                <element signature="method#postOrder#0;class#BinarySearchTree#0" />
+                <element signature="class#Vertex#0;class#Graph#0" />
+                <element signature="class#Edge#0;class#Graph#0" />
+                <element signature="method#addEdge#0;class#Graph#0" />
+                <element signature="method#addVertex#0;class#Graph#0" />
+                <element signature="method#containsVertex#0;class#Graph#0" />
+                <element signature="method#numVertices#0;class#Graph#0" />
+                <element signature="method#numEdges#0;class#Graph#0" />
+                <element signature="method#printGraph#0;class#Graph#0" />
               </folding>
             </state>
           </provider>
@@ -112,8 +124,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="623" />
-    <option name="width" value="1297" />
+    <option name="x" value="154" />
+    <option name="width" value="1451" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -124,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,10 +153,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543474468651" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543513834928" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -164,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
+  <component name="RunManager" selected="Application.Graph">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearchTree" />
       <module name="Data Structures" />
@@ -209,9 +222,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.MinHeap" />
         <item itemvalue="Application.Graph" />
+        <item itemvalue="Application.MinHeap" />
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.GraphAdjList" />
         <item itemvalue="Application.GraphAdjMatrix" />
       </list>
@@ -231,7 +244,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="623" y="0" width="1297" height="1087" extended-state="0" />
+    <frame x="154" y="0" width="1451" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -239,7 +252,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17946646" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16534866" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -259,7 +272,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info active="true" anchor="right" x="3221" y="-2" width="612" height="962" id="Run" order="8" visible="true" weight="0.35731608" />
+      <window_info anchor="right" x="3221" y="-2" width="612" height="962" id="Run" order="8" weight="0.35658914" />
     </layout>
     <layout-to-restore>
       <window_info id="Image Layers" order="0" />
@@ -294,13 +307,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree.java" />
     <entry file="file://$PROJECT_DIR$/src/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -444,27 +450,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="118" column="29" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
+        <state relative-caret-position="784">
+          <caret line="241" column="42" lean-forward="true" selection-start-line="241" selection-start-column="42" selection-end-line="241" selection-end-column="42" />
           <folding>
-            <element signature="class#Vertex#0;class#Graph#0" />
-            <element signature="class#Edge#0;class#Graph#0" />
-            <element signature="method#addEdge#0;class#Graph#0" />
-            <element signature="method#addVertex#0;class#Graph#0" />
-            <element signature="method#containsVertex#0;class#Graph#0" />
-            <element signature="method#numVertices#0;class#Graph#0" />
-            <element signature="method#numEdges#0;class#Graph#0" />
-            <element signature="method#printGraph#0;class#Graph#0" />
+            <element signature="class#BSTNode#0;class#BinarySearchTree#0" />
+            <element signature="method#BinarySearchTree#0;class#BinarySearchTree#0" />
+            <element signature="method#insert#0;class#BinarySearchTree#0" />
+            <element signature="method#insertREc#0;class#BinarySearchTree#0" />
+            <element signature="method#remove#0;class#BinarySearchTree#0" />
+            <element signature="method#removeRec#0;class#BinarySearchTree#0" />
+            <element signature="method#contains#0;class#BinarySearchTree#0" />
+            <element signature="method#getHeight#0;class#BinarySearchTree#0" />
+            <element signature="method#getSuccessor#0;class#BinarySearchTree#0" />
+            <element signature="method#getMin#0;class#BinarySearchTree#0" />
+            <element signature="method#getMax#0;class#BinarySearchTree#0" />
+            <element signature="method#getSize#0;class#BinarySearchTree#0" />
+            <element signature="method#inOrder#0;class#BinarySearchTree#0" />
+            <element signature="method#preOrder#0;class#BinarySearchTree#0" />
+            <element signature="method#postOrder#0;class#BinarySearchTree#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MinHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="237" column="21" selection-start-line="237" selection-start-column="21" selection-end-line="237" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="method#MinHeap#0;class#MinHeap#0" />
             <element signature="method#minHeapify#0;class#MinHeap#0" />
@@ -487,26 +500,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="241" column="42" lean-forward="true" selection-start-line="241" selection-start-column="42" selection-end-line="241" selection-end-column="42" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
           <folding>
-            <element signature="class#BSTNode#0;class#BinarySearchTree#0" />
-            <element signature="method#BinarySearchTree#0;class#BinarySearchTree#0" />
-            <element signature="method#insert#0;class#BinarySearchTree#0" />
-            <element signature="method#insertREc#0;class#BinarySearchTree#0" />
-            <element signature="method#remove#0;class#BinarySearchTree#0" />
-            <element signature="method#removeRec#0;class#BinarySearchTree#0" />
-            <element signature="method#contains#0;class#BinarySearchTree#0" />
-            <element signature="method#getHeight#0;class#BinarySearchTree#0" />
-            <element signature="method#getSuccessor#0;class#BinarySearchTree#0" />
-            <element signature="method#getMin#0;class#BinarySearchTree#0" />
-            <element signature="method#getMax#0;class#BinarySearchTree#0" />
-            <element signature="method#getSize#0;class#BinarySearchTree#0" />
-            <element signature="method#inOrder#0;class#BinarySearchTree#0" />
-            <element signature="method#preOrder#0;class#BinarySearchTree#0" />
-            <element signature="method#postOrder#0;class#BinarySearchTree#0" />
+            <element signature="class#Vertex#0;class#Graph#0" />
+            <element signature="class#Edge#0;class#Graph#0" />
+            <element signature="method#addEdge#0;class#Graph#0" />
+            <element signature="method#addVertex#0;class#Graph#0" />
+            <element signature="method#containsVertex#0;class#Graph#0" />
+            <element signature="method#numVertices#0;class#Graph#0" />
+            <element signature="method#numEdges#0;class#Graph#0" />
+            <element signature="method#printGraph#0;class#Graph#0" />
           </folding>
         </state>
       </provider>
