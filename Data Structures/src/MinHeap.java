@@ -245,8 +245,5 @@ public class MinHeap {
         heap.printHeap();
         System.out.println(heap.extractMin());
         heap.printHeap();
-
-
-
     }
 }
